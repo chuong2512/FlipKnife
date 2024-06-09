@@ -1517,44 +1517,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CoinText
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 280145259664362373, guid: 1287ac2f86b4d204a89db8665b989415, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8799112244619225817, guid: 1287ac2f86b4d204a89db8665b989415, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7000942919949370525}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1287ac2f86b4d204a89db8665b989415, type: 3}
---- !u!1 &281961903456190391 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8799112244619225817, guid: 1287ac2f86b4d204a89db8665b989415, type: 3}
-  m_PrefabInstance: {fileID: 8787933735545951598}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7000942919949370525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 281961903456190391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f15eb5c4efa2fb49864ba0cf263eb20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _button: {fileID: 4412132694684800825}
---- !u!114 &4412132694684800825 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4957909462023160407, guid: 1287ac2f86b4d204a89db8665b989415, type: 3}
-  m_PrefabInstance: {fileID: 8787933735545951598}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 281961903456190391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &6496161194566261352 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2581128956257226502, guid: 1287ac2f86b4d204a89db8665b989415, type: 3}
