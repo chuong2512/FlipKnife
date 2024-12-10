@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayButton : AButton
 {
-    public bool CheckRegister = false;
+    public bool CheckRegister = true;
 
     protected override void OnClickButton()
     {
@@ -16,7 +16,7 @@ public class PlayButton : AButton
         }
         else
         {
-            Manager.ScreenManager.OpenScreen(ScreenType.RegisterScreen);
+            Manager.ScreenManager.OpenScreen(ScreenType.IAPScreen);
         }
     }
 

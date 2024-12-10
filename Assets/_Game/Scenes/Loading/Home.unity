@@ -1203,11 +1203,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: IAP
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4780226775860797169, guid: dfc1d1c37818c9a4cb22dc60b2746468, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 9210811421379744292, guid: dfc1d1c37818c9a4cb22dc60b2746468, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8869985128222981250}
   m_SourcePrefab: {fileID: 100100000, guid: dfc1d1c37818c9a4cb22dc60b2746468, type: 3}
+--- !u!1 &8869985128222981249 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9210811421379744292, guid: dfc1d1c37818c9a4cb22dc60b2746468, type: 3}
+  m_PrefabInstance: {fileID: 8869985128222981248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8869985128222981250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8869985128222981249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc697ebf111cd204f9df9df3476e2134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -79,6 +79,9 @@ public class PlayerData : BaseData
 
     public bool IsRate => isRate;
 
+    public bool IsRegister
+        => time > 0;
+
     public void ResetTime()
     {
         time = 0;
